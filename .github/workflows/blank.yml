@@ -1,5 +1,5 @@
 name: "GitHub Action Demo triggered by"
-on: workflow_dispatch
+on: push
 jobs:
   action-demo:
     runs-on: ubuntu-latest
